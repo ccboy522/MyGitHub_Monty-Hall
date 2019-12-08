@@ -49,10 +49,5 @@ int main(){
 	sleep(1);
 	cout << "There is a car behind one door, other is full of sheeps.\tFind the car.\n\tGood Luck!" << endl;
 	start();
-	for(char i; i != 'N'; ){
-		cout << "Again?\t[Y]es\t[N]o" << endl;
-		cin >> i;
-		if(i == 'Y')  start();
-	}
 	return 0;
 }

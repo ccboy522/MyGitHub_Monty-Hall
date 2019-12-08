@@ -1,7 +1,6 @@
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
-#include "unistd.h"
 using namespace std;
 int start(void){
     sleep(1);
@@ -38,16 +37,8 @@ int main(){
 	     << "*                                                              *" << endl
 	     << "*                        Monty Hall                            *" << endl
 	     << "*                                                              *" << endl
-		 << "****************************************************************" << endl
-	     << "by ";
-	sleep(1);
-	cout << "C.";
-	sleep(1);
-	cout << "Y.";
-	sleep(1);
-	cout << "张" << endl;
-	sleep(1);
-	cout << "There is a car behind one door, other is full of sheeps.\tFind the car.\n\tGood Luck!" << endl;
+	     << "****************************************************************" << endl
+	     << "There is a car behind one door, other is full of sheeps.\tFind the car.\n\tGood Luck!" << endl;
 	start();
 	return 0;
 }

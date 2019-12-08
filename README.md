@@ -1,4 +1,5 @@
-# Monty-Hall
+Monty-Hall
+==========
 ## 一个简单的小游戏
     三门问题（Monty Hall problem），是一个源自博弈论的数学游戏问题，大致出自美国的电视游戏节目Let's Make a Deal。问题
     的名字来自该节目的主持人蒙提·霍尔（Monty Hall）。
